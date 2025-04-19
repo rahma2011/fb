@@ -476,3 +476,7 @@ background-color: #899D9D;
   outline: none;
   border: none;
 }
+
+.swiper-pagination-bullet-active{
+  background-color: #BAE249;
+}
