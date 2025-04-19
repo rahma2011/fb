@@ -33,11 +33,24 @@
   .header{
     position: relative;
   }
+
+  .card-artifacts{
+    width: 100%;
+  }
+
+  .card-artifact{
+    margin: 0;
+    margin-bottom: 30px;
+  }
  }
  @media(max-width:560px){
     .left,
     .right{
         display: none;
+    }
+
+    .hero-title {
+      margin-bottom: 30px;
     }
 
     .hero-text{
@@ -46,4 +59,5 @@
     .p-5{
 display: none;
     }
+
  }
