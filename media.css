@@ -1,0 +1,49 @@
+ @media(max-width:960px){
+  .hero-title{
+    width: 100%; 
+  }
+ 
+  .card-artefact{
+   width: 100%; 
+  }
+  .img-3{
+   background-color:#0B1919 ;
+  }
+ }  
+
+  @media(max-width:780px){
+  .artefact{
+    flex-wrap:wrap;
+  }
+  .card-artefacts{
+    max-width: 100%;
+  }
+  .form-4{
+    width: 70%;
+  }
+  .header-nav{
+    position:absolute;
+    bottom: -31px;
+    left: 0;
+    padding: 0 15px;
+    width: 100%;
+    overflow: auto;
+    
+  }
+  .header{
+    position: relative;
+  }
+ }
+ @media(max-width:560px){
+    .left,
+    .right{
+        display: none;
+    }
+
+    .hero-text{
+        display: none;
+    }
+    .p-5{
+display: none;
+    }
+ }
